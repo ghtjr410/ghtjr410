@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 독서 타임라인</title>
+</head>
+<body>
+    <h2>📚 독서 타임라인</h2>
+    <label for="yearSelect">연도 선택:</label>
+    <select id="yearSelect" onchange="updateImage()">
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+    </select>
+    <br><br>
+    <img id="timelineImage" src="https://raw.githubusercontent.com/ghtjr410/ghtjr410/refs/heads/main/reading_timeline.svg" width="800px">
+
+    <script>
+        function updateImage() {
+            var year = document.getElementById("yearSelect").value;
+            document.getElementById("timelineImage").src = `https://raw.githubusercontent.com/ghtjr410/ghtjr410/refs/heads/main/reading_timeline.svg`;
+        }
+    </script>
+</body>
+</html>
