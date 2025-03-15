@@ -19,7 +19,7 @@ for i in range(1, 13):
     svg_body += f'<text x="{x_pos}" y="40" font-size="12" fill="black">{i}월</text>\n'
 
 # Gantt Chart 스타일 막대 생성
-y_position = 70
+y_position = 50
 for book in books:
     x_start = book["start"] * 60
     width = (book["end"] - book["start"]) * 60
