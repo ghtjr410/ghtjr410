@@ -4,24 +4,17 @@ import java.io.IOException;
 public class ReadingStatsSVG {
     public static void main(String[] args) {
         String svgContent = """
-            <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+            <svg width="400" height="220" xmlns="http://www.w3.org/2000/svg">
                 <rect width="100%" height="100%" fill="#1E1E2E" rx="10"/>
                 <text x="20" y="40" font-size="16" fill="white">📚 독서 카테고리별 통계</text>
                 
-                <rect x="20" y="70" width="150" height="20" fill="#FF6384" rx="5"/>
-                <text x="180" y="85" font-size="14" fill="white">CS (5권)</text>
-                
-                <rect x="20" y="100" width="90" height="20" fill="#36A2EB" rx="5"/>
-                <text x="120" y="115" font-size="14" fill="white">Language (3권)</text>
-                
-                <rect x="20" y="130" width="60" height="20" fill="#FFCE56" rx="5"/>
-                <text x="90" y="145" font-size="14" fill="white">Framework (2권)</text>
-                
-                <rect x="20" y="160" width="120" height="20" fill="#4BC0C0" rx="5"/>
-                <text x="150" y="175" font-size="14" fill="white">Database (4권)</text>
-                
-                <rect x="20" y="190" width="90" height="20" fill="#9966FF" rx="5"/>
-                <text x="120" y="205" font-size="14" fill="white">Infra (3권)</text>
+                <text x="20" y="70" font-size="14" fill="white">⭐ Computer Science: <tspan fill="#F1C40F">5권</tspan></text>
+                <text x="20" y="90" font-size="14" fill="white">📊 Data Structure &amp; Algorithm: <tspan fill="#F1C40F">4권</tspan></text>
+                <text x="20" y="110" font-size="14" fill="white">☕ Java &amp; JVM: <tspan fill="#F1C40F">3권</tspan></text>
+                <text x="20" y="130" font-size="14" fill="white">⚙️ Spring Framework: <tspan fill="#F1C40F">2권</tspan></text>
+                <text x="20" y="150" font-size="14" fill="white">🛢 Database &amp; SQL: <tspan fill="#F1C40F">4권</tspan></text>
+                <text x="20" y="170" font-size="14" fill="white">🚀 System Design &amp; Scalability: <tspan fill="#F1C40F">3권</tspan></text>
+                <text x="20" y="190" font-size="14" fill="white">🌐 Infrastructure &amp; DevOps: <tspan fill="#F1C40F">3권</tspan></text>
             </svg>
             """;
 

@@ -12,12 +12,31 @@
             height: 100vh;
             background-color: #1E1E1E;
         }
+        svg {
+            background-color: #161B22;
+            border-radius: 12px;
+            padding: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
     </style>
 </head>
 <body>
-    <svg width="300" height="120" xmlns="http://www.w3.org/2000/svg">
-        <!-- 검은색 박스 -->
-        <rect x="0" y="0" width="300" height="120" rx="10" fill="black"/>
+    <svg width="380" height="220"  xmlns="http://www.w3.org/2000/svg">
+        <!-- 박스 배경 -->
+        <rect x="0" y="0" width="380" height="220" rx="10" fill="#161B22"/>
+        
+        <!-- 타이틀 -->
+        <text x="20" y="30" font-size="16" fill="#F1C40F" font-weight="bold">📚 Technical Reading List </text>
+
+        <!-- 카테고리 목록 -->
+        <text x="20" y="60" font-size="14" fill="white">⭐ Computer Science: <tspan fill="#F1C40F">5권</tspan></text>
+        <text x="20" y="80" font-size="14" fill="white">📊 Data Structure & Algorithm: <tspan fill="#F1C40F">4권</tspan></text>
+        <text x="20" y="100" font-size="14" fill="white">☕ Java & JVM: <tspan fill="#F1C40F">3권</tspan></text>
+        <text x="20" y="120" font-size="14" fill="white">⚙️ Spring Framework: <tspan fill="#F1C40F">2권</tspan></text>
+        <text x="20" y="140" font-size="14" fill="white">🛢 Database & SQL: <tspan fill="#F1C40F">4권</tspan></text>
+        <text x="20" y="160" font-size="14" fill="white">🚀 System Design & Scalability: <tspan fill="#F1C40F">3권</tspan></text>
+        <text x="20" y="180" font-size="14" fill="white">🌐 Infrastructure & DevOps: <tspan fill="#F1C40F">3권</tspan></text>
     </svg>
+
 </body>
 </html>
