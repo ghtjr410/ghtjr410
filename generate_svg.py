@@ -37,6 +37,7 @@
 # print("✅ SVG 파일이 생성되었습니다! (reading_timeline.svg)")
 
 import json
+import math
 
 # 카테고리별 독서 통계 데이터
 categories = {
