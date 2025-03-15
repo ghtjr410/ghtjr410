@@ -20,7 +20,7 @@ jobs:
           python-version: "3.x"
 
       - name: Install Dependencies
-        run: pip install json
+        run: echo "No dependencies needed"
 
       - name: Generate SVG
         run: python generate_svg.py
