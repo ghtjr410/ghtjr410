@@ -1,6 +1,8 @@
+## Finding patterns. Solving problems. Contributing back.
+
 A backend engineer passionate about building robust systems and contributing to open source.
 
-Currently focused on JVM AI ecosystem, actively contributing to `LangChain4j` to improve developer experience for AI-powered applications.
+Currently focused on **JVM AI ecosystem**, actively contributing to `LangChain4j` to improve developer experience for AI-powered applications.
 
 ### Open Source Contributions
 
