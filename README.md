@@ -5,8 +5,14 @@ Currently focused on JVM AI ecosystem, actively contributing to `LangChain4j` to
 ### Open Source Contributions
 
 * **langchain4j/langchain4j**
-  * Add `Supplier` support for `customHeaders` in OpenAI models #4403
-  * Add `omni-moderation` models to OpenAiModerationModelName #4390
+  * Add `Supplier` support for `customHeaders` in OpenAI models [#4403](https://github.com/langchain4j/langchain4j/pull/4403)
+  * Add `omni-moderation` models to OpenAiModerationModelName [#4390](https://github.com/langchain4j/langchain4j/pull/4390)
 
 * **langchain4j/langchain4j-spring** (Review pending)
-  * Support multiple `Named OpenAI models` in Spring Boot starter #162
+  * Support multiple `Named OpenAI models` in Spring Boot starter [#162](https://github.com/langchain4j/langchain4j-spring/pull/162)
+ 
+* **jspecify/jspecify** *(Pending)*
+  * Add `nullness tests` for Guava-like Iterables APIs [#786](https://github.com/jspecify/jspecify/pull/786)
+
+* **dokimos-dev/dokimos** *(Pending)*
+  * Add `JSONL format` support for datasets [#28](https://github.com/dokimos-dev/dokimos/pull/28)
