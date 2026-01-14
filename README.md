@@ -9,6 +9,7 @@ Currently focused on **JVM AI ecosystem**, actively contributing to `LangChain4j
 * **[langchain4j](https://github.com/langchain4j/langchain4j)**
   * Add `Supplier` support for `customHeaders` in OpenAI models [#4403](https://github.com/langchain4j/langchain4j/pull/4403)
   * Add `Supplier` support for `customHeaders` in Ollama models [#4419](https://github.com/langchain4j/langchain4j/pull/4419)
+  * Add `Supplier` support for `customHeaders` in Voyage models [#4419](https://github.com/langchain4j/langchain4j/pull/4427) *(Pending)*
   * Add `omni-moderation` models to OpenAiModerationModelName [#4390](https://github.com/langchain4j/langchain4j/pull/4390)
 
 * **[langchain4j-spring](https://github.com/langchain4j/langchain4j-spring)** 
